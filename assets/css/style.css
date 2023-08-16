@@ -1,0 +1,290 @@
+body {
+  background-color: #fff;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Lato", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  width: 100%;
+}
+
+.main-content {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-nav-top {
+  display: block;
+  position: absolute;
+  text-transform: uppercase;
+  color: #000;
+  margin-top: 0;
+  margin: 0 100px;
+  padding: 8px;
+}
+
+.nav-index {
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 12px;
+  color: #000;
+  padding: 10px;
+}
+
+#nav-style {
+  font-family: "Lato", sans-serif;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#nav-style-footer {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  opacity: 0.25;
+}
+
+#main-navbar {
+  position: absolute;
+  z-index: 10;
+  width: 100vw;
+  backface-visibility: 0%;
+}
+
+#sec-1-navbar {
+  width: 100%;
+  height: 80px;
+  background: #fff;
+  margin-bottom: 5px;
+}
+
+.mt-logo {
+  margin: 10px;
+}
+
+.history-nav {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  z-index: 20;
+}
+
+.section {
+  width: 100vw;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.section-landing {
+  height: 100vh;
+  background-image: url("../img/indeximg.jpg");
+}
+
+.section-1 {
+  background-image: url("../img/historyimg.jpg");
+}
+
+.section-2 {
+  height: 100vh;
+  background-image: url("../img/climbimg.jpg");
+}
+
+.navbar-section {
+  background-color: #fff;
+  display: block;
+  width: 100vw;
+  margin: auto;
+  position: relative;
+  box-sizing: border-box;
+  height: 60px;
+}
+
+h1.number-font {
+  font-family: "Oswald", sans-serif;
+  font-size: 135px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #414f6b;
+  opacity: 0.5;
+  padding-top: 40px;
+  float: left;
+}
+
+h2.title-font {
+  font-family: "Oswald", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #414f6b;
+  width: 100vw;
+  position: absolute;
+  padding-top: 120px;
+  padding-left: 130px;
+}
+
+h3 {
+  font-family: "Bebas Neue", cursive;
+  text-transform: uppercase;
+  margin-top: 20px !important;
+  position: absolute;
+}
+
+h4 {
+  font-family: "Bebas Neue", cursive;
+  text-transform: uppercase;
+  float: left;
+  margin: 0;
+}
+
+.mt-logo-text {
+  color: #414f6b;
+}
+
+.la-logo-text {
+  color: #4d4d4d;
+}
+
+.mt-logo-text-foot,
+.la-logo-text-foot {
+  color: #fff;
+  opacity: 0.25;
+}
+
+.mt-logo-foot {
+  opacity: 0.25;
+}
+
+#nav-style-2 {
+  font-family: "Lato", sans-serif;
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;
+  color: #414f6b;
+  text-transform: uppercase;
+}
+
+.sec-2 {
+  padding-left: 150px !important;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 350;
+  width: 100%;
+}
+
+.info-container {
+  padding: 0 5%;
+  display: inline-block;
+  margin-bottom: 40%;
+}
+
+.info-container-2 {
+  padding: 0 5%;
+  display: block;
+  padding-top: 100px;
+  padding-left: 250px;
+}
+
+.section-title {
+  background-color: #fff;
+  display: block;
+  width: 100vw;
+  padding-bottom: 40px;
+}
+
+/*carousel css*/
+.color-bg {
+  background-color: rgb(65, 79, 107, 0.5);
+  display: block;
+  width: 100vw;
+  margin: auto;
+  position: relative;
+  box-sizing: border-box;
+  padding-bottom: 40px;
+}
+
+.carousel-cont {
+  opacity: 100%;
+  padding: 50px 0;
+  width: 100vw;
+}
+
+#card-border {
+  padding: 5% !important;
+}
+
+.card-img-adj {
+  background-position: 50% 50%;
+  object-fit: cover;
+  height: 190px;
+}
+
+/* section 02 */
+
+.mt-link-nav {
+  background-color: rgb(65, 79, 107);
+  width: 100%;
+}
+
+#mt-link-style {
+  font-family: "Oswald", sans-serif !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  color: #b0b4be;
+}
+
+.active {
+  text-decoration: underline !important;
+  background-color: #b0b4be !important;
+  color: #414f6b !important;
+}
+
+.nav {
+  display: inline-flex !important;
+}
+
+/* table */
+.table {
+  width: 400px !important;
+  background-color: #fff;
+  margin-left: 50px;
+  margin-top: 50px;
+  border: 20px solid #fff !important;
+}
+
+thead {
+  font-family: "Oswald", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #414f6b;
+  text-transform: uppercase;
+}
+
+td {
+  font-family: "Lato", sans-serif;
+  font-weight: 350;
+}
+
+.overbooked {
+  color: lightgray;
+}
+
+/* footer */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #414f6b;
+}
